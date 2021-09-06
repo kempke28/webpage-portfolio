@@ -1,0 +1,89 @@
+@media (min-width: 550px) {
+/*header container*/
+.header-container {
+    justify-content: space-around;
+}
+.menu-footer {
+    display: flex;
+    align-items: center;
+}
+.navigation-container {
+    display: flex;
+}
+.navigation-container li {
+    margin-right: 1rem;
+    font-size: 1.2rem;
+    font-weight: 1000
+}
+
+/* home */
+.profile-container img  {
+    width: 40vw;
+}
+
+/*projects*/
+.grid__item {
+ max-width: 500px;
+}
+
+/*About*/
+.icon {
+    max-width: 100px;
+    margin: 2rem;
+}
+
+/*Contact*/
+.main-contact-info h1 {
+    font-weight: 1000;
+}
+.my-info-contact p {
+    font-size: 1.5rem;
+}
+.main-form p {
+    font-size: 1.5rem;
+}
+.message-button { 
+    font-size: 1.5rem;
+    width: 15rem;
+}
+}
+
+@media (min-width: 900px) {
+
+/*header container*/
+.navigation-container li {
+    margin-right: 2rem;
+    font-size: 2rem;
+    font-weight: 1000
+}
+
+/* home */
+ .home-info-container {
+    display: flex;
+    flex-direction: row;
+    margin: 0 5rem 5rem 5rem
+ }
+ .profile-container img  {
+    width: 25vw;
+ }
+.home-info-container {
+    text-align: center;
+    padding: 6rem 0 0 2rem;
+}
+.info-container p {
+    padding: 3rem;
+}
+
+
+
+/*proyects*/
+
+.grid__item {
+    max-width: 400px;
+  }
+}
+
+
+@media (max-width: 1200px) {
+ 
+/*# sourceMappingURL=mediaqueries.css.map */
