@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contact</title>
+    <link rel="icon" type="image/png" href="../icons/hippo.png" sizes="32x32" />
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/mediaqueries.css">
+</head>
+
+
+
+<body>
+    <header class="header-container"> 
+        <div class="logo-container">
+            <a href="./index.html"><img class="logo" src="../icons/logo_Andres_w.png" alt=""></a>
+        </div>
+        <div class="menu-footer">
+            <nav>
+                <ul class="navigation-container">
+                    <li role="presentation"><a href="../index.html" role="menuitem">Home</a></li>
+                    <li role="presentation"><a href="./projects.html" role="menuitem">Projects</a></li>
+                    <li role="presentation"><a href="./about.html" role="menuitem">About</a></li>
+                    <li role="presentation"><a href="./contact.html" role="menuitem">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="main-contact-info"> 
+            <h1>Contact</h1>
+            <div class="my-info-contact">
+                <p>
+                Andy Kempke Luna<br>
+                Am Poggensee 12 <br>
+                23842 Bad Oldesloe<br>
+                Deutschland<br>
+                </p>
+                <p><a href="#">Tel: +49 176 5808 08 91</a></p>
+                <p>Add me in skype: <a href="#">andy.kempke</a></p>
+                <p><a href="#">akempkedev@gmail.com</a></p>
+            </div>
+            <div class="main-form">
+                <p>Send me a message, let me hear about you!</p>
+                <form id="form" class="form-input">
+                    <div class="field">
+                      <label for="guestName" class="label-input">Your name</label>
+                      <input class="input-info" type="text" name="guestName" id="guestName" placeholder="Your name please..." required>
+                    </div>
+                    <div class="field">
+                      <label for="phone" class="label-input">phone</label>
+                      <input class="input-info" type="text" name="phone" id="phone" placeholder="Your phone... if you want">
+                    </div>
+                    <div class="field">
+                      <label for="email" class="label-input">email</label>
+                      <input class="input-info" type="text" name="email" id="email" placeholder="your email">
+                    </div>
+                    <div class="field">
+                      <label for="message" class="label-input">message</label>
+                      <input class="input-info" type="text" name="message" id="message" placeholder="Write something nice....">
+                    </div>
+                    <div class="send-message-container">
+                        <button type="submit" id="send-button" value="Send Email" class="send-message" >Send it flying</button>
+                    </div>
+                    
+                  </form>
+                  
+                  <script type="text/javascript" src="../js/script.js"></script>
+                  <script type="text/javascript"
+                    src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+                  
+                  <script type="text/javascript">
+                    emailjs.init('user_oYN5lnoA1zgCrylHiDKug')
+                  </script>
+                  
+        
+        
+        
+    </main>
+
+
+    <footer class="footer-container">
+        <div class="page-footer-container">
+            <h2>Find me on!</h2>
+        </div>
+        <div class="social-media-container">
+            <a href="https://github.com/kempke28" ><img src="../icons/github.svg" width="35" height="35" alt=""></a>
+            <a href="https://www.linkedin.com/in/andres-kempke-43046969/" ><img src="../icons/linkedin.svg" width="35" height="35" alt=""></a>
+            <a href="https://dev.to/kempke28" ><img src="../icons/dev.svg" width="35" height="35" alt=""></a>
+        </div>    
+    </footer>
+    
+
+    
+
+</body>
+
+    <!-- User ID
+    user_oYN5lnoA1zgCrylHiDKug
+    Access Token
+    a3ac7c6ed63f59f28d52d8e8a5577a57 -->
