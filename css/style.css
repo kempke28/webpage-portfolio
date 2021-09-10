@@ -150,12 +150,15 @@ body {
   max-width: 90vw;
 }
 .grid__item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   background: #838383;
   padding: 10px;
   border-radius: 15px;
   margin: .5rem;
   max-width: 400px;
-  min-height: 400px;
+  min-height: 500px;
 }
 .grid__item p {
   text-align: justify;
